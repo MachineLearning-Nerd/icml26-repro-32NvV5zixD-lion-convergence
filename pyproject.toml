@@ -1,0 +1,11 @@
+[project]
+name = "lion-convergence-reproduction"
+version = "0.1.0"
+description = "Reproducible CPU checks for arXiv 2508.12327"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.3.1",
+]
+
+[tool.uv]
+package = false
