@@ -1,0 +1,1 @@
+The empirical family is not itself a proof of a universal theorem; the final decision therefore requires agreement with the exact proof audit. Claim 6 falsifies only the displayed l1 statement; it does not falsify the weaker l2 result actually derived.

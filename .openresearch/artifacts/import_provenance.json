@@ -1,0 +1,10 @@
+{
+  "source": "orx logs 80559478-92ff-4975-a448-b07e4bc338d8",
+  "source_commit": "593fd120fa4f2ff3a68ded26d945ea967bd7b604",
+  "source_marker": "CUMULATIVE_TEXT_BUNDLE_ZLIB_BASE64",
+  "bundle_schema": "lion-text-evidence-bundle-v1",
+  "imported_files": 136,
+  "text_encoding": "UTF-8",
+  "newline_note": "The bundle is text-only. Python read_text normalized the five CSV files from CRLF to LF before hashing and emission; their manifest entries were updated to the emitted LF byte hashes.",
+  "verdict": "IMPORTED_AND_HASH_VERIFIED"
+}

@@ -1,0 +1,24 @@
+{
+  "algorithm": "alg4 v2, Q1=S_G and Q2=S_1",
+  "anchor": "thm8",
+  "assumptions": [
+    "ass:2+",
+    "ass:3+",
+    "ass0+",
+    "bg1"
+  ],
+  "comparator_anchor": "thm7",
+  "comparator_displayed_theorem": 6,
+  "comparator_rate": "O(max(d^(1/4)T^(-1/4), d^(1/10)n^(-1/5)T^(-1/5)))",
+  "displayed_theorem": 7,
+  "quantifiers": "The displayed l1 rate is asserted uniformly over dimensions and horizons for every compliant average-smooth bounded-gradient problem.",
+  "quantity": "T^-1 sum_t E[||grad f(x_t)||_1]",
+  "rate": "O(d^(1/4)T^(-1/4))",
+  "schedule": {
+    "beta1": "beta1 <= sqrt(beta2)",
+    "beta2": "O(T^(-1/2))",
+    "eta": "O(d^(-1/2)T^(-1/2))",
+    "initial": "||x1||_infinity <= eta",
+    "lambda": "<= min(sqrt(L)/(T sqrt(eta G)), 1/(2 eta T))"
+  }
+}

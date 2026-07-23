@@ -1,0 +1,93 @@
+{
+  "git_sha": "593fd120fa4f2ff3a68ded26d945ea967bd7b604",
+  "paper": "arXiv:2508.12327v1",
+  "passed": true,
+  "regression": {
+    "all_final_verdicts_allowed": true,
+    "cumulative_claim_count": 6,
+    "legacy_baseline_reran": true,
+    "legacy_expected_claim_count": 6,
+    "passed": true
+  },
+  "results": [
+    {
+      "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+      "claim": 1,
+      "contract_anchor": "thm1++",
+      "empirical_status": "EMPIRICALLY_SUPPORTED",
+      "independent_empirical": true,
+      "independent_proof": true,
+      "negative_empirical": true,
+      "negative_proof": true,
+      "proof_status": "ANALYTICALLY_SUPPORTED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+      "claim": 2,
+      "contract_anchor": "thm1+++",
+      "empirical_status": "EMPIRICALLY_SUPPORTED",
+      "independent_empirical": true,
+      "independent_proof": true,
+      "negative_empirical": true,
+      "negative_proof": true,
+      "proof_status": "ANALYTICALLY_SUPPORTED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+      "claim": 3,
+      "contract_anchor": "thm3",
+      "empirical_status": "EMPIRICALLY_SUPPORTED",
+      "independent_empirical": true,
+      "independent_proof": true,
+      "negative_empirical": true,
+      "negative_proof": true,
+      "proof_status": "ANALYTICALLY_SUPPORTED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+      "claim": 4,
+      "contract_anchor": "thm4",
+      "empirical_status": "EMPIRICALLY_SUPPORTED",
+      "independent_empirical": true,
+      "independent_proof": true,
+      "negative_empirical": true,
+      "negative_proof": true,
+      "proof_status": "ANALYTICALLY_SUPPORTED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+      "claim": 5,
+      "contract_anchor": "thm5",
+      "empirical_status": "EMPIRICALLY_SUPPORTED",
+      "independent_empirical": true,
+      "independent_proof": true,
+      "negative_empirical": true,
+      "negative_proof": true,
+      "proof_status": "ANALYTICALLY_SUPPORTED",
+      "verdict": "VERIFIED"
+    },
+    {
+      "basis": "The theorem states an l1 rate but Appendices G/H derive l2 only; the periodic d=T^6 family satisfies every assumption and makes the lower-bound/claimed-rate ratio diverge as T^(1/4).",
+      "claim": 6,
+      "comparator_anchor": "thm7",
+      "contract_anchor": "thm8",
+      "independent_proof": true,
+      "negative_proof": true,
+      "proof_status": "FALSIFIED",
+      "valid_counterexample": true,
+      "verdict": "FALSIFIED"
+    }
+  ],
+  "run_command": "uv run --frozen python repro/src/verify_lion.py",
+  "runtime_environment": {
+    "cpu_count": 8,
+    "numpy": "2.3.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.11"
+  },
+  "schema": "lion-cumulative-verdict-v1"
+}

@@ -1,0 +1,1 @@
+Route A audits the stated proof and exact asymptotic contract; Claims 1–5 remain analytically supported rather than final VERIFIED until the independent empirical route is merged. Claim 6 is a statement-level falsification of the displayed l1 norm, not a claim that the appendix's l2 result is false.

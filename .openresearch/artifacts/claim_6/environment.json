@@ -1,0 +1,12 @@
+{
+  "cpu_count": 8,
+  "deterministic_seed": 250812327,
+  "elapsed_seconds": 0.04094091698061675,
+  "git_sha": "593fd120fa4f2ff3a68ded26d945ea967bd7b604",
+  "numpy": "2.3.1",
+  "paper_source_sha256": "cca5c0649acd36faff8eb63857d25811b009c6ad9ffa4b8810ae65e27b625688",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "processor": "arm",
+  "python": "3.12.11",
+  "run_command": "uv run --frozen python repro/src/verify_lion.py"
+}

@@ -1,0 +1,29 @@
+{
+  "coverage": {
+    "central_dimensions": [
+      16,
+      64,
+      256
+    ],
+    "claims": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "compression_schedules": [
+      "eta_T",
+      "eta_n"
+    ],
+    "distributed_nodes": [
+      2,
+      4,
+      8
+    ],
+    "seed_rows": 1776
+  },
+  "implementation": "Independent group-by recomputation from seed-level rows.",
+  "max_recomputed_mean_error": 0.0,
+  "passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "all_final_verdicts_allowed": true,
+  "cumulative_claim_count": 6,
+  "legacy_baseline_reran": true,
+  "legacy_expected_claim_count": 6,
+  "passed": true
+}

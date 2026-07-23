@@ -109,12 +109,15 @@ json.dump(results, open(os.path.join(OUT, "verdict.json"), "w"), indent=2)
 print("  wrote outputs/verdict.json")
 
 
-# The frozen toy checks above remain visible as a regression control.  Both
-# theorem-faithful routes below are additive and fail-closed.
+# The frozen toy checks above remain visible as a regression control.  The
+# committed evidence pack is checked before regeneration, then both
+# theorem-faithful routes below run additively and fail closed.
+import committed_evidence_check
 import proof_audit
 import empirical_scaling
 import cumulative_evidence
 
+committed_evidence_check.main()
 proof_audit.main()
 empirical_scaling.main()
 cumulative_evidence.main()

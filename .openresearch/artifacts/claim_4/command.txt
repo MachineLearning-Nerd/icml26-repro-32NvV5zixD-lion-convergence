@@ -1,0 +1,1 @@
+uv run --frozen python repro/src/verify_lion.py

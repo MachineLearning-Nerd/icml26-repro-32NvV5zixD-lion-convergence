@@ -1,0 +1,7 @@
+{
+  "counterexample_ratio_strictly_increasing": true,
+  "implementation": "Independent direct JSON checks; does not call validate().",
+  "passed": true,
+  "source_contract_complete": true,
+  "targets_match": true
+}

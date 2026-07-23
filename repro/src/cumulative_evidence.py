@@ -199,7 +199,7 @@ def main() -> None:
     manifest = {
         str(path.relative_to(ROOT)): _sha(path)
         for path in sorted(ARTIFACT_ROOT.rglob("*"))
-        if path.is_file()
+        if path.is_file() and path.name != "sha256_manifest.json"
     }
     _write_json(ARTIFACT_ROOT / "sha256_manifest.json", manifest)
     files, encoded = _bundle()

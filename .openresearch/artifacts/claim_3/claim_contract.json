@@ -1,0 +1,21 @@
+{
+  "algorithm": "alg3 v1 (server update once per round)",
+  "anchor": "thm3",
+  "assumptions": [
+    "ass:1+",
+    "ass:3+",
+    "ass0+"
+  ],
+  "displayed_theorem": 3,
+  "quantifiers": "For n independent heterogeneous workers satisfying the per-node assumptions, the expected l1 time-average has the displayed joint n,T rate.",
+  "quantity": "T^-1 sum_t E[||grad f(x_t)||_1]",
+  "rate": "O(d^(1/2) n^(-1/4) T^(-1/4))",
+  "schedule": {
+    "beta1": "beta2^2 <= beta1 <= sqrt(beta2)",
+    "beta2": "O(n^(1/2) T^(-1/2))",
+    "domain": "T >= n",
+    "eta": "O(n^(1/4) d^(-1/2) T^(-3/4))",
+    "initial": "||x1||_infinity <= eta",
+    "lambda": "<= 1/(2 eta T)"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "criterion": "mean divided by the complete two-term theorem rate across both eta schedules",
+  "normalized_ratio_range": [
+    0.14887564139538437,
+    1.0147251595419111
+  ],
+  "status": "EMPIRICALLY_SUPPORTED"
+}

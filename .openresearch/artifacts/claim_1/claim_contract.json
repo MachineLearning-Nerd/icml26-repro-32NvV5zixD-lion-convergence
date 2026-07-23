@@ -1,0 +1,20 @@
+{
+  "algorithm": "alg:lion v1",
+  "anchor": "thm1++",
+  "assumptions": [
+    "ass:1",
+    "ass:3",
+    "ass0"
+  ],
+  "displayed_theorem": 1,
+  "quantifiers": "For every stochastic objective satisfying the listed assumptions and every compliant parameter choice, the displayed expected time-average is bounded up to constants independent of d and T.",
+  "quantity": "T^-1 sum_t E[||grad f(x_t)||_1]",
+  "rate": "O(d^(1/2) T^(-1/4))",
+  "schedule": {
+    "beta1": "beta2^2 <= beta1 <= sqrt(beta2)",
+    "beta2": "O(T^(-1/2))",
+    "eta": "O(d^(-1/2) T^(-3/4))",
+    "initial": "||x1||_infinity <= eta",
+    "lambda": "<= 1/(2 eta T)"
+  }
+}

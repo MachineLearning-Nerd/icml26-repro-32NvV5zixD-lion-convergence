@@ -1,0 +1,14 @@
+{
+  "anchors": [
+    "thm7",
+    "thm8",
+    "Appendix G",
+    "Appendix H"
+  ],
+  "claimed_dimension_exponent": "1/4",
+  "claimed_norm": "l1",
+  "missing_conversion": "||g||_1 <= sqrt(d)||g||_2",
+  "passed": false,
+  "proof_supported_l1_dimension_exponent": "3/4",
+  "proved_norm": "l2"
+}

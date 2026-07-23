@@ -1,0 +1,12 @@
+{
+  "basis": "Exact proof-rate substitution plus a 1,776-row cumulative multi-axis suite with fitted exponents and measured assumptions.",
+  "claim": 1,
+  "contract_anchor": "thm1++",
+  "empirical_status": "EMPIRICALLY_SUPPORTED",
+  "independent_empirical": true,
+  "independent_proof": true,
+  "negative_empirical": true,
+  "negative_proof": true,
+  "proof_status": "ANALYTICALLY_SUPPORTED",
+  "verdict": "VERIFIED"
+}

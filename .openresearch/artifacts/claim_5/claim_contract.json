@@ -1,0 +1,21 @@
+{
+  "algorithm": "alg4 v1, Q1=S_G and Q2=sign",
+  "anchor": "thm5",
+  "assumptions": [
+    "ass:1+",
+    "ass:3+",
+    "ass0+",
+    "bg1"
+  ],
+  "displayed_theorem": 5,
+  "quantifiers": "For bounded per-node stochastic gradients and independent unbiased upload signs, either learning-rate choice gives its displayed expected l1 bound.",
+  "quantity": "T^-1 sum_t E[||grad f(x_t)||_1]",
+  "rate": "O(d^(1/2)T^(-1/2)+d n^(-1/2)) or O(n^(1/2)T^(-1)+d n^(-1/2))",
+  "schedule": {
+    "beta1": "beta2^2 <= beta1 <= sqrt(beta2)",
+    "beta2": "1/2",
+    "eta_a": "O(T^(-1/2)d^(-1/2))",
+    "eta_b": "O(n^(-1/2))",
+    "lambda": "<= 1/(2 eta T)"
+  }
+}

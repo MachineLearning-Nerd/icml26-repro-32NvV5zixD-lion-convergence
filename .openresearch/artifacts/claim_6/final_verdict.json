@@ -1,0 +1,11 @@
+{
+  "basis": "The theorem states an l1 rate but Appendices G/H derive l2 only; the periodic d=T^6 family satisfies every assumption and makes the lower-bound/claimed-rate ratio diverge as T^(1/4).",
+  "claim": 6,
+  "comparator_anchor": "thm7",
+  "contract_anchor": "thm8",
+  "independent_proof": true,
+  "negative_proof": true,
+  "proof_status": "FALSIFIED",
+  "valid_counterexample": true,
+  "verdict": "FALSIFIED"
+}
