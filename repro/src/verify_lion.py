@@ -107,3 +107,10 @@ for k_, r in results.items():
 print(f"\n  {passed}/{len(results)} claims verified.")
 json.dump(results, open(os.path.join(OUT, "verdict.json"), "w"), indent=2)
 print("  wrote outputs/verdict.json")
+
+
+# The frozen toy checks above remain visible as a regression control.  The
+# theorem-faithful audit below is additive and fail-closed.
+import proof_audit
+
+proof_audit.main()
