@@ -540,7 +540,7 @@ expected time-average norm.
 """,
         )
         _write_text(
-            d / "method.md",
+            d / "method_proof.md",
             f"""# Method — Claim {claim}
 
 Route A uses exact rational exponent arithmetic on the paper's final displayed
@@ -556,12 +556,12 @@ checker. Claim 6 additionally uses a constructive asymptotic counterexample.
             d / "verifier_output.json",
             {"status": verdict["statuses"][str(claim)], "reason": verdict["reasons"][str(claim)]},
         )
-        _write_json(d / "independent_checker_output.json", independent)
-        _write_json(d / "negative_control_output.json", neg)
+        _write_json(d / "independent_proof_checker_output.json", independent)
+        _write_json(d / "negative_control_proof_output.json", neg)
         _write_json(d / "environment.json", env)
         _write_text(d / "command.txt", RUN_COMMAND)
         _write_text(
-            d / "limitations.md",
+            d / "limitations_proof.md",
             (
                 "Route A audits the stated proof and exact asymptotic contract; "
                 "Claims 1–5 remain analytically supported rather than final VERIFIED "
@@ -571,7 +571,7 @@ checker. Claim 6 additionally uses a constructive asymptotic counterexample.
             ),
         )
         _write_text(
-            d / "EVAL.md",
+            d / "EVAL.proof.md",
             f"""# Claim {claim} evaluation
 
 Verdict: **{verdict['statuses'][str(claim)]}**
