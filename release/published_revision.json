@@ -1,0 +1,14 @@
+{
+  "paper": "32NvV5zixD",
+  "space_id": "DineshAI/32NvV5zixD",
+  "previous_judged_revision": "18c02b05d9b22408040b48f039a35274c1b06d6a",
+  "published_revision": "b608880d55fda7410254110361b368172a0917f8",
+  "publication_status": "awaiting_judge",
+  "published_at": "2026-07-23T17:02:19Z",
+  "live_judged_score_at_publication": "6/12",
+  "score_increase_claimed": false,
+  "upload_entries": 158,
+  "allowlist_sha256": "b8b6d643a4b72f701f560571f865df99baf49984d635395c7c81fbc2f5b85334",
+  "manifest_sha256": "1064bc1a1512437b392cf78098e11d0793e6935eba335db658be5a4e62a1d589",
+  "git_source_sha": "84612560a04a3e5786b00096943cef32bf2c24bc"
+}
