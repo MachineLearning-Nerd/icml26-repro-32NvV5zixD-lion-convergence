@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#f8fafc"/>
+  <text x="65" y="58" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#172033">Complete rate-normalized quantities stay bounded</text>
+  <text x="65" y="91" font-family="Arial,sans-serif" font-size="18" fill="#64748b">Range across every tested dimension, horizon, node count, schedule, and seed mean</text>
+  <g stroke="#dbe3ef"><line x1="260" y1="125" x2="1110" y2="125"/><line x1="260" y1="530" x2="1110" y2="530"/>
+    <line x1="260" y1="125" x2="260" y2="530"/><line x1="600" y1="125" x2="600" y2="530"/><line x1="940" y1="125" x2="940" y2="530"/><line x1="1110" y1="125" x2="1110" y2="530"/></g>
+  <g font-family="Arial,sans-serif" font-size="17" fill="#334155">
+    <text x="70" y="180">Claim 1</text><text x="70" y="260">Claim 2</text><text x="70" y="340">Claim 3</text><text x="70" y="420">Claim 4</text><text x="70" y="500">Claim 5</text>
+  </g>
+  <g stroke="#0ea5e9" stroke-width="18" stroke-linecap="round">
+    <line x1="463" y1="174" x2="486" y2="174"/><line x1="370" y1="254" x2="390" y2="254"/>
+    <line x1="432" y1="334" x2="440" y2="334"/><line x1="364" y1="414" x2="398" y2="414"/>
+  </g>
+  <line x1="361" y1="494" x2="950" y2="494" stroke="#8b5cf6" stroke-width="18" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif" font-size="16" fill="#0f172a">
+    <text x="505" y="180">0.299–0.332</text><text x="409" y="260">0.162–0.191</text>
+    <text x="459" y="340">0.253–0.265</text><text x="417" y="420">0.153–0.203</text>
+    <text x="970" y="500">0.149–1.015</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#64748b" text-anchor="middle">
+    <text x="260" y="560">0.0</text><text x="600" y="560">0.5</text><text x="940" y="560">1.0</text><text x="1110" y="560">1.25</text>
+  </g>
+</svg>

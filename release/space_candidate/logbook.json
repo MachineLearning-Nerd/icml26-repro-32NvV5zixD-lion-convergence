@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Convergence Analysis of the Lion Optimizer",
+  "emoji": "🎯",
+  "space_id": "DineshAI/32NvV5zixD",
+  "paper": null,
+  "tags": [
+    "icml2026-repro",
+    "paper-32NvV5zixD"
+  ],
+  "updated_at": "2026-07-23T18:30:00+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Convergence Analysis of the Lion Optimizer",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "overview",
+        "title": "Overview",
+        "file": "pages/overview/page.md",
+        "children": []
+      },
+      {
+        "slug": "claims",
+        "title": "Claims",
+        "file": "pages/claims/page.md",
+        "children": []
+      },
+      {
+        "slug": "evidence",
+        "title": "Evidence",
+        "file": "pages/evidence/page.md",
+        "children": []
+      },
+      {
+        "slug": "verification-run",
+        "title": "Verification run",
+        "file": "pages/verification-run/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      },
+      {
+        "slug": "rigorous-evidence",
+        "title": "Rigorous claim evidence",
+        "file": "pages/rigorous-evidence/page.md",
+        "children": [
+          {
+            "slug": "claim-1",
+            "title": "Claim 1 - centralized Lion",
+            "file": "pages/claim-1/page.md",
+            "children": []
+          },
+          {
+            "slug": "claim-2",
+            "title": "Claim 2 - STORM Lion",
+            "file": "pages/claim-2/page.md",
+            "children": []
+          },
+          {
+            "slug": "claim-3",
+            "title": "Claim 3 - distributed Lion",
+            "file": "pages/claim-3/page.md",
+            "children": []
+          },
+          {
+            "slug": "claim-4",
+            "title": "Claim 4 - distributed variance reduction",
+            "file": "pages/claim-4/page.md",
+            "children": []
+          },
+          {
+            "slug": "claim-5",
+            "title": "Claim 5 - unbiased sign compression",
+            "file": "pages/claim-5/page.md",
+            "children": []
+          },
+          {
+            "slug": "claim-6",
+            "title": "Claim 6 - bidirectional compression",
+            "file": "pages/claim-6/page.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "agent_view_tokens": 1515,
+  "revision": "1784735369295773891"
+}

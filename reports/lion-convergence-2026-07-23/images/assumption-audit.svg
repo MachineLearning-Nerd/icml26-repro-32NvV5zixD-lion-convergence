@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+  <rect width="1200" height="590" fill="#ffffff"/>
+  <text x="65" y="58" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#172033">Assumptions were measured, not asserted</text>
+  <text x="65" y="91" font-family="Arial,sans-serif" font-size="18" fill="#64748b">Observed value as a fraction of its certificate or diagnostic reference</text>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#334155">
+    <text x="65" y="180">bounded gradient / G</text><text x="65" y="275">average smoothness / L</text>
+    <text x="65" y="370">variance / certificate</text><text x="65" y="465">|noise mean| / 10⁻³</text>
+  </g>
+  <g fill="#e2e8f0"><rect x="390" y="145" width="700" height="48" rx="8"/><rect x="390" y="240" width="700" height="48" rx="8"/><rect x="390" y="335" width="700" height="48" rx="8"/><rect x="390" y="430" width="700" height="48" rx="8"/></g>
+  <rect x="390" y="145" width="595" height="48" rx="8" fill="#22c55e"/>
+  <rect x="390" y="240" width="700" height="48" rx="8" fill="#22c55e"/>
+  <rect x="390" y="335" width="698" height="48" rx="8" fill="#22c55e"/>
+  <rect x="390" y="430" width="152" height="48" rx="8" fill="#38bdf8"/>
+  <g font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">
+    <text x="1005" y="177">0.850</text><text x="1010" y="272">1.000</text><text x="1007" y="367">0.997</text><text x="562" y="462">0.218</text>
+  </g>
+  <text x="390" y="530" font-family="Arial,sans-serif" font-size="17" fill="#64748b">All initial-condition and theorem-domain checks: TRUE</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" fill="#fff7f7"/>
+  <text x="65" y="58" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#3f1720">Claim 6: the lower-bound / claimed-rate ratio diverges</text>
+  <text x="65" y="91" font-family="Arial,sans-serif" font-size="18" fill="#7f1d1d">Assumption-satisfying family d=T⁶; predicted growth T¹ᐟ⁴; fitted exponent +0.25027</text>
+  <g stroke="#fecdd3" stroke-width="1">
+    <line x1="120" y1="140" x2="1110" y2="140"/><line x1="120" y1="510" x2="1110" y2="510"/>
+    <line x1="120" y1="140" x2="120" y2="510"/><line x1="318" y1="140" x2="318" y2="510"/><line x1="516" y1="140" x2="516" y2="510"/><line x1="714" y1="140" x2="714" y2="510"/><line x1="912" y1="140" x2="912" y2="510"/><line x1="1110" y1="140" x2="1110" y2="510"/>
+  </g>
+  <polyline points="120,468 318,425 516,371 714,307 912,231 1110,140" fill="none" stroke="#e11d48" stroke-width="7"/>
+  <g fill="#e11d48" stroke="#fff" stroke-width="3">
+    <circle cx="120" cy="468" r="10"/><circle cx="318" cy="425" r="10"/><circle cx="516" cy="371" r="10"/><circle cx="714" cy="307" r="10"/><circle cx="912" cy="231" r="10"/><circle cx="1110" cy="140" r="10"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="16" fill="#7f1d1d" text-anchor="middle">
+    <text x="120" y="545">T=2</text><text x="318" y="545">4</text><text x="516" y="545">8</text><text x="714" y="545">16</text><text x="912" y="545">32</text><text x="1110" y="545">64</text>
+    <text x="120" y="454">1.188</text><text x="318" y="411">1.414</text><text x="516" y="357">1.682</text><text x="714" y="293">2.000</text><text x="912" y="217">2.378</text><text x="1080" y="126">2.828</text>
+  </g>
+  <text x="65" y="588" font-family="Arial,sans-serif" font-size="18" fill="#4c0519">A single theorem constant independent of d and T cannot bound an unbounded ratio.</text>
+</svg>

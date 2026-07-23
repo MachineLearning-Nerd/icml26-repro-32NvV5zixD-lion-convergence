@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#0b1020"/>
+  <text x="60" y="64" fill="#f8fafc" font-family="Arial,sans-serif" font-size="34" font-weight="700">Six exact claim contracts, six resolved verdicts</text>
+  <text x="60" y="101" fill="#94a3b8" font-family="Arial,sans-serif" font-size="20">Evidence result — not a live judge score</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(60,145)">
+      <rect width="165" height="190" rx="18" fill="#123d33" stroke="#34d399" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#a7f3d0" font-size="20">CLAIM 1</text><text x="82.5" y="104" fill="#fff" font-size="26" font-weight="700">VERIFIED</text><text x="82.5" y="146" fill="#6ee7b7" font-size="18">T⁻¹ᐟ⁴</text>
+    </g>
+    <g transform="translate(243,145)">
+      <rect width="165" height="190" rx="18" fill="#123d33" stroke="#34d399" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#a7f3d0" font-size="20">CLAIM 2</text><text x="82.5" y="104" fill="#fff" font-size="26" font-weight="700">VERIFIED</text><text x="82.5" y="146" fill="#6ee7b7" font-size="18">T⁻¹ᐟ³</text>
+    </g>
+    <g transform="translate(426,145)">
+      <rect width="165" height="190" rx="18" fill="#123d33" stroke="#34d399" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#a7f3d0" font-size="20">CLAIM 3</text><text x="82.5" y="104" fill="#fff" font-size="26" font-weight="700">VERIFIED</text><text x="82.5" y="146" fill="#6ee7b7" font-size="18">(nT)⁻¹ᐟ⁴</text>
+    </g>
+    <g transform="translate(609,145)">
+      <rect width="165" height="190" rx="18" fill="#123d33" stroke="#34d399" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#a7f3d0" font-size="20">CLAIM 4</text><text x="82.5" y="104" fill="#fff" font-size="26" font-weight="700">VERIFIED</text><text x="82.5" y="146" fill="#6ee7b7" font-size="18">(nT)⁻¹ᐟ³</text>
+    </g>
+    <g transform="translate(792,145)">
+      <rect width="165" height="190" rx="18" fill="#123d33" stroke="#34d399" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#a7f3d0" font-size="20">CLAIM 5</text><text x="82.5" y="104" fill="#fff" font-size="26" font-weight="700">VERIFIED</text><text x="82.5" y="146" fill="#6ee7b7" font-size="18">2-term rate</text>
+    </g>
+    <g transform="translate(975,145)">
+      <rect width="165" height="190" rx="18" fill="#451a24" stroke="#fb7185" stroke-width="2"/>
+      <text x="82.5" y="55" fill="#fecdd3" font-size="20">CLAIM 6</text><text x="82.5" y="104" fill="#fff" font-size="25" font-weight="700">FALSIFIED</text><text x="82.5" y="146" fill="#fda4af" font-size="18">ℓ1 mismatch</text>
+    </g>
+  </g>
+  <rect x="60" y="380" width="1080" height="86" rx="16" fill="#151d33"/>
+  <text x="90" y="416" fill="#94a3b8" font-family="Arial,sans-serif" font-size="19">Previous live judge</text>
+  <text x="90" y="449" fill="#f8fafc" font-family="Arial,sans-serif" font-size="28" font-weight="700">6 / 12</text>
+  <text x="420" y="416" fill="#94a3b8" font-family="Arial,sans-serif" font-size="19">Conservative forecast</text>
+  <text x="420" y="449" fill="#f8fafc" font-family="Arial,sans-serif" font-size="28" font-weight="700">10–12 / 12</text>
+  <text x="820" y="416" fill="#94a3b8" font-family="Arial,sans-serif" font-size="19">Best-supported possible</text>
+  <text x="820" y="449" fill="#f8fafc" font-family="Arial,sans-serif" font-size="28" font-weight="700">12 / 12 forecast</text>
+</svg>
